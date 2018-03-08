@@ -49,5 +49,13 @@ That line will create two components, one named User and one named Avatar
 #### Generate a component without a test
     react-mogen Dropdown --notests
 
+## Output
+The complete output of each command will look like this:
+
+    /Dropdown
+        Dropdown.js
+        Dropdown.css
+        Dropdown.test.js
+
 ## License
 MIT
