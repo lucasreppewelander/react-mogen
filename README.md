@@ -4,11 +4,6 @@
 ### Prerequisites
 the CLI requires (As of version 1.0.0) Node 7.6 as the CLI utilizes `async/await`.
 
-### Table of Contents
-- Installation
-- Usage
-- License
-
 ## Installation
     npm install -g react-mogen
 
