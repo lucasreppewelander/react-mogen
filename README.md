@@ -13,7 +13,8 @@ the CLI requires (As of version 1.0.0) Node 7.6 as the CLI utilizes `async/await
     npm install -g react-mogen
 
 Initialize and generate the .mogenrc config by calling the `--init` option
-    react-mogen --init
+    
+	react-mogen --init
 
 	// which produces an .mogenrc like this
 	{
