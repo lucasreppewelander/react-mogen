@@ -1,6 +1,6 @@
 {
   "name": "react-mogen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "react-mogen, a react component generator CLI, this is a complete rewrite of React Modules Template",
   "main": "./lib/cli.js",
   "scripts": {
