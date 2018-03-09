@@ -77,5 +77,10 @@ Dropdown
   Dropdown.test.js
 ```
 
+## Changelog
+- 1.2.0
+- 1.1.0
+- 1.0.0
+
 ## License
 MIT
