@@ -17,11 +17,11 @@ mogen --init
 
 // which produces an .mogenrc like this
 {
-	"path": "src/components/",
-	"es6": true,
-	"css": "scss",
-	"extensions": "js",
-	"test": true
+  "path": "src/components/",
+  "es6": true,
+  "css": "scss",
+  "extensions": "js",
+  "test": true
 }
 ```
 
@@ -29,11 +29,11 @@ the config file can also be created manually by, in your root, create the file n
 
 ```
 {
-	"path": <string, path to your components folder>,
-	"es6": <boolean, use es6 styled code or not>,
-	"css": <string, css engine>,
-	"extensions": <string, javascript extension>,
-	"test": <boolean, wheter or not a test file should get generated>
+  "path": <string, path to your components folder>,
+  "es6": <boolean, use es6 styled code or not>,
+  "css": <string, css engine>,
+  "extensions": <string, javascript extension>,
+  "test": <boolean, wheter or not a test file should get generated>
 }
 ```
 
@@ -71,9 +71,9 @@ The complete output of each command will look like this:
 
 ```
 Dropdown
-	Dropdown.js
-	Dropdown.css
-	Dropdown.test.js
+  Dropdown.js
+  Dropdown.css
+  Dropdown.test.js
 ```
 
 ## License
