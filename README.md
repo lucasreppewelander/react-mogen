@@ -1,11 +1,6 @@
 # react-mogen
 > A CLI for generating React Components
 
-[![Dependency Status][david-badge]][david-badge-url]
-[![devDependency Status][david-dev-badge]][david-dev-badge-url]
-
-[![npm](https://img.shields.io/npm/v/%40angular/cli.svg)][npm-badge-url]
-
 
 ### Prerequisites
 the CLI requires (As of version 1.0.0) Node 7.6 as the CLI utilizes `async/await`.
