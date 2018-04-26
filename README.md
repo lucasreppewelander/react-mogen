@@ -77,7 +77,22 @@ Dropdown
   Dropdown.test.js
 ```
 
+## Plugins
+Specify plugins in the rc file like this:
+```bash
+  plugins: [
+    'mogen-plugin-storybook'
+  ]
+```
+
+the plugin needs to expose one function that is async either `async/await` or a promise. It expects to have a function called `run()` with the following arguments: name of the component, options which are the options where react-mogen got called with, example: `--stateless`,
+config which is the config from the rc file, which holds your src path and etc. and last is the rootPath of your project from where react-mogen decides where to place components etc, often where the plugin finds either .mogenrc or package.json or similar.
+
 ## Changelog
+### 2.0.0
+- Added the ability to write plugins for react-mogen, see plugins section here above
+- Added a new flag to mogenrc file where you can get an index.js created which exports the default from the component
+
 - 1.2.0
 - 1.1.0
 - 1.0.0
